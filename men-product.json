@@ -1,0 +1,72 @@
+[
+    {
+        "id": 1,
+        "name": "Green Cotton Shirt",
+        "price": "259.99",
+        "image": "../Images/model-3.jpg"
+    },
+
+    {
+        "id": 2,
+        "name": "Warcore Black Hemp Shorts",
+        "price": "399.99",
+        "image": "../Images/model-6.jfif"
+    },
+
+    {
+        "id": 3,
+        "name": "Black Warcore Hemp Jacket",
+        "price": "999.99",
+        "image": "../Images/model-5-copy.jpg"
+    },
+
+    {
+        "id": 4,
+        "name": "Green Urban Bamboo Shoes",
+        "price": "799.99",
+        "image": "../Images/shoe-1.jfif"
+    },
+
+    {
+        "id": 5,
+        "name": "Light Brown Polyester Cap",
+        "price": "129.99",
+        "image": "../Images/capMan.webp"
+    },
+
+    {
+        "id": 6,
+        "name": "Organic Sandy Brown Shirt",
+        "price": "269.99",
+        "image": "../Images/ecoShirt.webp"
+    },
+
+    {
+        "id": 7,
+        "name": "Gray Wool Jacket",
+        "price": "349.99",
+        "image": "../Images/wool-jacket.jpg"
+    },
+
+    {
+        "id": 8,
+        "name": "Pale Brown Bamboo Pants",
+        "price": "299.99",
+        "image": "../Images/ecoPants.jpg"
+    },
+
+    {
+        "id": 9,
+        "name": "Cork Fibre Brown Shoes",
+        "price": "1599.99",
+        "image": "../Images/shoes-light.webp"
+    },
+
+    {
+        "id": 10,
+        "name": "Black Soy Silk T-Shirt",
+        "price": "179.99",
+        "image": "../Images/organic-t.jpg"
+    }
+
+]

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reecowear Store</title>
+    <link rel="stylesheet" href="style/signup.css">
+    <script type="module" src="firebaseauth.js"></script>
+</head>
+<body>
+    <section class="user">
+        <header class="header">
+            <a href="index.html" class="Reeco_Logo"><span class="logo_green">ReEco</span>Wear</a>
+        </header>
+        
+        <div class="form-div">
+        <div id="SignUpMessage" class="messageDiv" style="display:none;"></div>
+            <h1>Sign Up</h1>
+            <table>
+                <tr class="inputs">
+                    <td>Name & Surname</td>
+                    <td>
+                        <form><label></label>
+                            <input type="Name & Surname" id="nas"
+                            name="Name & Surname" required>
+                        </form>
+                    </td>    
+                </tr>
+
+                <tr>
+                    <td>Email</td>
+                    <td>
+                        <form><label></label>
+                            <input type="email" id="email"
+                            name="email" required>
+                        </form>
+                    </td>    
+                </tr>
+
+                <tr>
+                    <td>Confirm Email</td>
+                    <td>
+                        <form><label></label>
+                            <input type="email" id="" 
+                                name="conemail" required>
+                        </form>
+                    </td>    
+                </tr>
+
+                <tr>
+                <td>Password</td>
+                <td>
+                        <form><label></label>
+                            <input type="Password" id="password"
+                                name="password"
+                                minlength="8" required>
+                        </form>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>Confirm Password</td>
+                    <td>
+                        <form><label></label>
+                            <input type="password" id="conpassword"
+                                name="conpassword" 
+                                minlength="8" required>
+                        </form>
+                    </td>    
+                </tr>
+            </table>
+
+            <br>
+            
+            <div class="create">
+            <button type="button" id= "signUp" onclick="alert('Signed Up!')">Create Account</button>
+        </div>
+    </section>   
+</body>
+</html>

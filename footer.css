@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap'); /* Import the Poppins font from Google Fonts */
+
+.footer { 
+    line-height: 1.5; /* Set line height for readability */
+    font-family: 'Poppins', Arial, Helvetica, sans-serif; /* Use Poppins font, fallback to system fonts */
+    background-color: #005007b6; /* Set a semi-transparent dark green background */
+    padding: 5px; /* Add padding around the footer */
+} 
+
+.container { 
+    max-width: 2000px; /* Limit the maximum width of the container */
+    margin: auto; /* Center the container */
+    margin-bottom: 10px; /* Add space below the container */
+} 
+
+.row { 
+    display: flex; /* Use flexbox for layout */
+    flex-wrap: wrap; /* Allow items to wrap onto the next line */
+    flex-direction: row; /* Set items to be arranged in a row */
+} 
+
+.list-Decor { 
+    list-style: none; /* Remove default list styling */
+} 
+
+.list-Decor li a { 
+    text-decoration: none; /* Remove underline from links */
+    font-size: larger; /* Increase font size of links */
+    color: rgb(215, 234, 171); /* Set link color */
+} 
+
+.list-Decor p { 
+    color: rgb(215, 234, 171); /* Set paragraph text color */
+    font-size: large; /* Increase paragraph font size */
+} 
+
+.list-Decor p a { 
+    color: rgb(215, 234, 171); /* Set link color within paragraphs */
+    font-size: large; /* Ensure link size matches paragraph size */
+} 
+
+.footer-col { 
+    width: 20%; /* Set width of footer columns to 20% */
+    padding: 2 25px; /* Add padding (note: this syntax should use 'px' for both values) */
+} 
+
+.footer-col h4 { 
+    font-size: 30px; /* Set font size for column headings */
+    color: rgb(215, 234, 171); /* Set heading color */
+    text-transform: capitalize; /* Capitalize heading text */
+    margin-bottom: 20px; /* Add space below headings */
+    position: relative; /* Set positioning for pseudo-element */
+} 
+
+.footer-col h4::after { 
+    content: ''; /* Create an empty pseudo-element */
+    position: absolute; /* Position it absolutely within the heading */
+    left: 0; /* Align to the left */
+    bottom: 0px; /* Position at the bottom of the heading */
+    background-color: rgb(247, 244, 244); /* Set background color */
+    height: 2px; /* Set height of the line */
+    box-sizing: border-box; /* Include padding and border in width/height */
+    width: 0%; /* Initially set width to 0% for animation */
+} 
+
+.footer-col ul::after { 
+    margin-bottom: 10px; /* Add space after the unordered list */
+} 
+
+.footer-col ul li { 
+    text-decoration: none; /* Remove default text decoration from list items */
+} 
+
+.footer-row { 
+    display: flex; /* Use flexbox for footer rows */
+    align-items: last baseline; /* Align items to the last baseline */
+    text-decoration: none; /* Remove text decoration from footer links */
+} 
+
+.footer-row li { 
+    list-style: none; /* Remove default list styling */
+    margin-right: 1rem; /* Add space to the right of list items */
+} 
+
+.footer-row li a { 
+    text-decoration: none; /* Remove underline from footer links */
+    font-size: 14px; /* Set font size for footer links */
+} 
+
+.footer-row a { 
+    color: rgb(215, 234, 171); /* Set link color in footer rows */
+} 
+
+.head3r { 
+    display: flex; /* Use flexbox for header layout */
+    justify-content: center; /* Center header content */
+} 
+
+.head-div { 
+    display: flex; /* Use flexbox for head division */
+    position: relative; /* Allow positioning of inner elements */
+    top: -40px; /* Move up by 40 pixels */
+    justify-content: center; /* Center content */
+    line-height: 2; /* Set line height for readability */
+    text-align: center; /* Center-align text */
+    font-size: 25px; /* Set font size for header */
+    text-decoration: none; /* Remove text decoration */
+    height: 85px; /* Set height of header */
+    width: 700px; /* Set width of header */
+    border-bottom: px solid rgb(0, 136, 247); /* (Incorrect) Set bottom border (no width specified) */
+    background: black; /* Set background color to black */
+    border-radius: 20px; /* Round the corners */
+    padding: 1px; /* Add padding */
+    border: 2px solid transparent; /* Set a transparent border */
+} 
+
+.head-div a { 
+    text-decoration: none; /* Remove underline from links in header */
+    color: rgb(2, 182, 26); /* Set link color in header */
+} 
+
+.head-div:hover { 
+    padding: 0px; /* Remove padding on hover (not usually recommended) */
+    border: blue; /* Change border color on hover (no width specified) */
+} 
+
+.contacts-grid { 
+    /* Commented out grid layout, using flexbox instead */
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-between; /* Space items evenly */
+    flex-direction: row-reverse; /* Reverse the order of items */
+} 
+
+.socialLinks { 
+    grid-area: socialLinks; /* (Unused) Define grid area for social links */
+} 
+
+*img { 
+    margin-bottom: 0px; /* Remove bottom margin from all images */
+    padding: 0px; /* Remove padding from all images */
+    box-sizing: border-box; /* Include padding and border in width/height */
+} 
+
+.image-container { 
+    display: flex; /* Use flexbox for image container */
+    align-items: last baseline; /* Align items to last baseline */
+    justify-content: right; /* Align items to the right */
+} 
+
+.image-container img { 
+    width: 100px; /* Set width of images */
+    height: 30%; /* Set height to 30% of its container */
+} 
+
+.image-container img { 
+    border-radius: 50%; /* Make images circular */
+    border: 10px; /* (Incorrect) Define a border (no width specified) */
+} 
+
+.image-container i { 
+    font-size: 2rem; /* Set font size for icons */
+} 
+
+.social-box { 
+    display: flex; /* Use flexbox for social box layout */
+    align-items: center; /* Center items vertically */
+} 
+
+.social-box a { 
+    color: rgb(215, 234, 171); /* Set link color in social box */
+    margin-right: 15px; /* Add space to the right of links */
+}

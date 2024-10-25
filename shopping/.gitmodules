@@ -1,0 +1,3 @@
+[submodule "ReEcoWear/shopping"]
+path = shopping
+url = https://github.com/PentaIigence/ReEcoWear.git

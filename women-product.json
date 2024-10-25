@@ -1,0 +1,72 @@
+[
+    {
+        "id": 11,
+        "name": "Leather Shorts and T-Shirt",
+        "price": "219.99",
+        "image": "../Images/Women/th.jfif"
+    },
+
+    {
+        "id": 12,
+        "name": "Ladies 3 Piece",
+        "price": "359.99",
+        "image": "../Images/Women/OIP (16).jfif"
+    },
+
+    {
+        "id": 13,
+        "name": "Ladies Sandals",
+        "price": "119.99",
+        "image": "../Images/Women/OIP (2).jfif"
+    },
+
+    {
+        "id": 14,
+        "name": "Wedding Dress",
+        "price": "1499.99",
+        "image": "../Images/Women/OIP (3).jfif"
+    },
+
+    {
+        "id": 15,
+        "name": "Baloon Dress",
+        "price": "279.99",
+        "image": "../Images/Women/OIP (15).jfif"
+    },
+
+    {
+        "id": 16,
+        "name": "Ladies Coat",
+        "price": "439.99",
+        "image": "../Images/Women/OIP (7).jfif"
+    },
+
+    {
+        "id": 17,
+        "name": "Ladies Funky Dress",
+        "price": "1199.99",
+        "image": "../Images/Women/0fb48101d73009d1594d5457c3cfc933--funky-dresses-recycled-dress.jpg"
+    },
+
+    {
+        "id": 18,
+        "name": "Carnival Dress",
+        "price": "499.99",
+        "image": "../Images/Women/OIP (11).jfif"
+    },
+
+    {
+        "id": 19,
+        "name": "Ladies Heels",
+        "price": "799.99",
+        "image": "../Images/Women/shoes001 (1).jpg"
+    },
+
+    {
+        "id": 20,
+        "name": "Summer Dress",
+        "price": "179.99",
+        "image": "../Images/Women/OIP (1).jfif"
+    }
+
+]

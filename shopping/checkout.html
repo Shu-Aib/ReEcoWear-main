@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ReEcoWear Checkout</title> 
+
+    <link rel="stylesheet" href="../style/men.css">
+    <link rel="stylesheet" href="../footer.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header class="header">
+        <a href="../index.html" class="Reeco_Logo"><span class="logo_green">ReEco</span>Wear</a>
+        <nav class="navbar">
+            <a href="men.html">Men</a>
+            <a href="women.html">Women</a>
+            <a href="kids.html">Kids</a>
+            <a href="accessories.html">Accessories</a>
+            <a href="../about.html">About Us</a>
+        </nav>
+    </header>
+
+    <div class="checkout-container">
+        <div class="check">
+            <div class="heading-check">
+                <h1>Checkout</h1>
+            </div>
+
+            <!-- Cart Items Placeholder -->
+            <div class="cart-items" id="cart-items-container"></div>
+
+            <div class="text-price">
+                <p>Your total is: R<span id="total-amount">0.00</span></p>
+            </div>
+
+            <div class="btn-view">
+                <button class="payment-btn">Proceed to Payment</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="../the_js/app.js"></script>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            const totalAmountElement = document.getElementById("total-amount");
+            const cartItemsContainer = document.getElementById("cart-items-container");
+            const totalPrice = localStorage.getItem("totalPrice") || "0.00";
+            const cartData = JSON.parse(localStorage.getItem("carts")) || [];
+
+            // Display the saved total price
+            totalAmountElement.textContent = totalPrice;
+
+            // Display cart items
+            cartData.forEach(item => {
+                const itemElement = document.createElement("div");
+                itemElement.classList.add("checkout-item");
+                itemElement.innerHTML = `
+                    <div class="item-name">${item.name}</div>
+                    <div class="item-quantity">Quantity: ${item.quantity}</div>
+                    <div class="item-price">Price: R${item.price}</div>
+                    <div class="item-total">Total: R${(item.price * item.quantity).toFixed(2)}</div>
+                `;
+                cartItemsContainer.appendChild(itemElement);
+            });
+        });
+    </script>
+</body>
+</html>

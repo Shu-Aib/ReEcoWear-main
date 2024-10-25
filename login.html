@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reecowear Store</title>
+    <link rel="icon" href="Images/R.jpg">
+    <link rel="stylesheet" href="style/new.css">
+    <script type="module" src="firebaseauth.js"></script>
+</head>
+
+<body>
+ 
+        <header class="header">
+            <a href="index.html" class="Reeco_Logo"><span class="logo_green">ReEco</span>Wear</a>
+        </header>
+
+        <section class="user">
+
+        <div class="form-div">
+        <div id="SignInMessage" class="messageDiv" style="display:none;"></div>
+            
+            <h2 class="h1-text">Login</h2>
+
+            <form class="login-form">
+                <p><strong>Email:</p>
+                <input class="emailtxt" type="email" id="email" minlength="5" required>
+
+
+                <p>Password:</p>
+                <input class="pwdtext" type="password" name="Password" placeholder="8 characters minimum" minlength="8" required>
+            </form>
+
+            <br>
+
+            <div class="log-pos">
+                <button type="button" id= "submit" onclick="alert('Logging in!')">Login!</button>
+
+                <a class="signup" href="signing.html">Don't have an account?</a>
+            </div>
+            
+            
+
+            <p><a href="forget.html" class="Password">Forgot Password?</p>
+
+        </div>
+
+    </section>
+       
+</body>
+</html>

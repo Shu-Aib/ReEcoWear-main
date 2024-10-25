@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout</title>
+</head>
+<body>
+    <h1>Your Cart</h1>
+    <div class="cart-total">
+        Total: R<span id="cartTotal">0.00</span>
+    </div>
+
+    <script>
+        // Retrieve cart from localStorage
+        let carts = JSON.parse(localStorage.getItem('carts')) || [];
+        
+        // Function to calculate and display total
+        const calculateTotal = () => {
+          let total = carts.reduce((sum, item) => sum + (item.price * item.quantity), 0);
+          document.getElementById('cartTotal').textContent = total.toFixed(2);  // Display total in Rands (R)
+        };
+      
+        // Call function when page loads
+        calculateTotal();
+      </script>
+      
+</body>
+</html>

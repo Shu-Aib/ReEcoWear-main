@@ -1,0 +1,113 @@
+/**************************** form.**********************************/
+/* body {
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #ede3c2;
+} */
+
+.user {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    background:linear-gradient(rgb(0, 0, 0, 0), rgb(0, 0, 0, 0)), url("../nature-leaves-plants-green-wallpaper.jpg") no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    flex-direction: column;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.user input{
+    height: 40px;
+
+} 
+.user p{
+    
+}
+
+header {
+    position:fixed;
+    background: transparent;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 100;
+    margin-bottom: 60px;
+}
+
+.Reeco_Logo { 
+    font-size: 32px;
+    color: white;
+    text-decoration: none;
+}
+
+.Reeco_Logo .logo_green {
+    color: rgba(67, 247, 31, 0.795);
+    font-weight: 500;
+}
+
+.reg {
+    /* background: #c9b576;
+    background:linear-gradient(rgb(0, 0, 0, 0), rgb(0, 0, 0, 0)), url("../nature-leaves-plants-green-wallpaper.jpg") no-repeat;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    width: 100%;
+} */
+
+/* form {
+    display: flex;
+    flex-direction: column;
+} */
+}
+
+p {
+    margin: 10px 0 5px;
+}
+
+input[type="text"], input[type="tel"], input[type="tel"], input[type="email"], input[type="password"] {
+    width: 97%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.btn {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    
+}
+.btn a{
+    text-decoration: none;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/* button[type="reset"] {
+    background-color: #e0dbc9;
+    color: #000000;
+    font-weight: bold;
+} */
+
+/* 
+ */
